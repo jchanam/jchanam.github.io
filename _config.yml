@@ -1,0 +1,51 @@
+# Site
+repository: jchanam/jchanam.github.io
+# favicon: images/favicon.ico
+
+# Personal info
+name: Julio Chana Moreno
+title: Site Reliability Engineer @ Returnly
+
+# Social links
+twitter_username: jchanam
+github_username:  jchanam
+linkedin_username: juliochana
+
+# About Section
+# about_title: About Me
+about_profile_image: images/julio_draw.png
+about_content: | # this will include new lines to allow paragraphs
+  Hi, my name's Julio and I'm a Site Reliability Engineer. I have a good background in Systems Engineering, and from a couple of years ago I dive deeper into Software Engineering, primarily focused on automation over Kubernetes. I love to learn new things and face challenges, that will help me improve an become a better professional.
+
+  I am most skilled in: <mark>Kubernetes</mark> and <mark>Golang</mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: |
+  I'm not only a passionate about technology, I also love and enjoy:
+   - Playing Rugby
+   - Sewing
+   - Cats
+   - Photography
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag

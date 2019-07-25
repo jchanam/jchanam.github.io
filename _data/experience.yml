@@ -1,0 +1,69 @@
+- layout: left
+  company: Returnly
+  link: returnly.com
+  job_title: Site Reliability Engineer
+  dates: May 2019 - Present
+  quote: >
+    The platform for brands that want better returns
+
+- layout: left
+  company: Spotahome
+  link: spotahome.com
+  job_title: Site Reliability Engineer
+  dates: December 2016 - May 2019
+  quote: >
+    Spotahome is a mid to long-term online booking platform for home rentals
+  description: |
+    Infrastructure architect, mentor for good practices and new technologies.
+
+    Designer and developer of internal applications used to speed-up and facilitate continuous integration and continuous delivery of the applications.
+
+    Designer and developer of Kubernetes Operators used to extend the default Kubernetes usage. eg https://github.com/spotahome/redis-operator
+
+- layout: left
+  company: Solera Inc.
+  link: solera.com
+  job_title: DevOps Engineer
+  dates: September 2016 - December 2016
+  quote: >
+    Solera is a global leader in data and software services that strives to transform every touchpoint of the vehicle lifecycle into a connected digital experience
+
+- layout: left
+  company: BQ
+  link: bq.com
+  job_title: DevOps Engineer
+  dates: January 2015 - August 2016
+  quote: >
+    We help people to understand technology, we inspire them to use it and develop it
+  description: |
+    DevOps analyst working with Docker, SaltStack, Vagrant, Chef and Ansible.
+
+    Designing and providing web-oriented systems for high volume of visitors.
+
+    Designing and developing high availability webs such as stores, blogs, etc. with Docker and Kubernetes.
+
+    Designing and executing stress tests.
+
+    Analyzing web developments for optimizing and fixing errors.
+
+    Automatizing tasks for software deployments.
+
+- layout: left
+  company: E-Comm Group
+  job_title: DevOps Engineer
+  dates: December 2011 - August 2014
+  quote: >
+    Mobility solutions, e-commerce, mobile marketing and mobile platforms.
+  description: |
+    Designing web-oriented systems.
+
+    Analyzing traffic for users routing.
+
+    Maintaining and upgrading physical servers.
+
+    Mounting and maintaining internal network.
+
+    Responsibilities included internal support, troubleshooting and trainer.
+
+    Development of payment platform monitoring and alerting.
+
