@@ -1,14 +1,20 @@
 # Site
 repository: jchanam/jchanam.github.io
-# favicon: images/favicon.ico
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
 
 # Personal info
 name: Julio Chana Moreno
 title: Tech Lead, Staff Site Reliability Engineer @ Affirm
 
+# Dark Mode (true/false/never)
+darkmode: true
+
 # Social links
 twitter_username: jchanam
-github_username:  jchanam
+github_username: jchanam
 linkedin_username: juliochana
 
 # About Section
@@ -19,33 +25,162 @@ about_content: | # this will include new lines to allow paragraphs
 
   I am most skilled in: <mark>Teams leading</mark>, <mark>Kubernetes</mark> and <mark>Golang</mark>
 
-# Projects Section
-# projects_title: Projects
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Affirm
+        link: affirm.com
+        sub_title: Tech Lead, Staff Site Reliability Engineer
+        caption: Oct 2022 - Present
+        quote: >
+          The company that deliver honest financial products that improve lives
+        description: |
+          Continue with the tech lead responsibilities. Synchronize with the rest of Tech Leads of the company and integrate the effort from the Spanish and North America SRE members.
 
-# Experience Section
-# experience_title: Experience
+          Integrate the team into a new Affirm's observability and incident management, and improve the company processes to reduce the MTTM and MTTR.
 
-# Education Section
-# education_title: Education
+      - layout: left
+        title: Affirm
+        link: affirm.com
+        sub_title: Tech Lead, Senior Site Reliability Engineer
+        caption: Jun 2022 - Oct 2022
+        quote: >
+          The company that deliver honest financial products that improve lives
+        description: |
+          As the tech lead of the team, create a new planning and review process, specially defined to suit into a multi-regional team with an important gap difference (US-Spain).
 
-# More Section
-# more_title: A Little More About Me
-more_content: |
-  I'm not only a passionate about technology, I also love and enjoy:
-   - Learning languages
-   - Sewing
-   - Cats
-   - DIY
+          Implement a more efficient work management with Jira, centralized in knowledge sharing and clear projects statuses.
+
+          Migrate from AWS ECS to EKS all the environments for the company, without disruption.
+
+      - layout: left
+        title: Affirm
+        link: affirm.com
+        sub_title: Senior Site Reliability Engineer
+        caption: May 2021 - Jun 2022
+        quote: >
+          The company that deliver honest financial products that improve lives
+        description: |
+          After the acquisition of Returnly by Affirm, expanded the team to 5 new individual contributors, mentoring and onboarding them.
+
+          Improve the security at the edge by implementing Cloudflare for the company, as the leader and main developer for the project. Reduced the attack surface and improved the reliability of the different services offered.
+
+          Migrate all the infrastructure as code from CloudFront to Terraform.
+
+      - layout: left
+        title: Returnly
+        link: returnly.com
+        sub_title: Senior Site Reliability Engineer
+        caption: May 2019 - May 2021
+        quote: >
+          The platform for brands that want better returns
+        description: |
+          Architect, develop and maintain the company's infrastructure.
+
+          Create an adaptable, cost-efficient multi-environment solution so engineers have an isolated playground to test their changes.
+
+          Main developer for the SRE team, creating a cli Golang tool to speed up the software development processes, such as deploy, interact with the infrastructure, etc.
+
+          Migration for the log tool to a managed solution.
+
+          Mentor and onboarder for three new individual contributors in the team.
+
+      - layout: left
+        title: Spotahome
+        link: spotahome.com
+        sub_title: Site Reliability Engineer
+        caption: December 2016 - May 2019
+        quote: >
+          Spotahome is a mid to long-term online booking platform for home rentals
+        description: |
+          Infrastructure architect, mentor for good practices and new technologies.
+
+          Designer and developer of internal applications used to speed-up and facilitate continuous integration and continuous delivery of the applications.
+
+          Designer and developer of Kubernetes Operators used to extend the default Kubernetes usage. eg https://github.com/spotahome/redis-operator
+
+      - layout: left
+        title: Solera Inc.
+        link: solera.com
+        sub_title: DevOps Engineer
+        caption: September 2016 - December 2016
+        quote: >
+          Solera is a global leader in data and software services that strives to transform every touchpoint of the vehicle lifecycle into a connected digital experience
+
+      - layout: left
+        title: BQ
+        link: bq.com
+        sub_title: DevOps Engineer
+        caption: January 2015 - August 2016
+        quote: >
+          We help people to understand technology, we inspire them to use it and develop it
+        description: |
+          DevOps analyst working with Docker, SaltStack, Vagrant, Chef and Ansible.
+
+          Designing and providing web-oriented systems for high volume of visitors.
+
+          Designing and developing high availability webs such as stores, blogs, etc. with Docker and Kubernetes.
+
+          Designing and executing stress tests.
+
+          Analyzing web developments for optimizing and fixing errors.
+
+          Automatizing tasks for software deployments.
+
+      - layout: left
+        title: E-Comm Group
+        sub_title: DevOps Engineer
+        caption: December 2011 - August 2014
+        quote: >
+          Mobility solutions, e-commerce, mobile marketing and mobile platforms.
+        description: |
+          Designing web-oriented systems.
+
+          Analyzing traffic for users routing.
+
+          Maintaining and upgrading physical servers.
+
+          Mounting and maintaining internal network.
+
+          Responsibilities included internal support, troubleshooting and trainer.
+
+          Development of payment platform monitoring and alerting.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Technical University of Madrid
+        sub_title: Bachelor Degree in Computer Engineering
+        caption: 2008 - 2015
+        quote: >
+          The Technical University of Madrid's ETSI Informática is Madrid's longest standing and most highly reputed higher education institution offering a degree in informatics engineering.
+        description: |
+          During my studies on the ETSIINF-UPM, I did not only developed my technical knowledge, I also participated on many students associations suchs as CitFI and BEST (Board of European Students of Technology).
+
+          My degree final project can be found [here](files/tfg_juliochana.pdf).
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I'm not only a passionate about technology, I also love and enjoy:
+      - Learning languages
+      - Sewing
+      - Cats
+      - DIY
 
 # Footer
-footer_show_references: false
+footer_show_references: true
+references_title: Theme by <a href="https://github.com/sproogen/modern-resume-theme" target="_blank">James Grant</a> - Profile picture artwork by <a href="http://www.jaimervq.com" target="_blank">Jaime Rivera</a>.
 
 # Build settings
-remote_theme: sproogen/resume-theme
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
