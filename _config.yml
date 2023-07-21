@@ -4,7 +4,7 @@ repository: jchanam/jchanam.github.io
 
 # Personal info
 name: Julio Chana Moreno
-title: Site Reliability Engineer @ Returnly
+title: Tech Lead, Staff Site Reliability Engineer @ Affirm
 
 # Social links
 twitter_username: jchanam
@@ -15,9 +15,9 @@ linkedin_username: juliochana
 # about_title: About Me
 about_profile_image: images/julio_draw.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Julio and I'm a Site Reliability Engineer. I have a good background in Systems Engineering, and from a couple of years ago I dive deeper into Software Engineering, primarily focused on automation over Kubernetes. I love to learn new things and face challenges, that will help me improve an become a better professional.
+  Hi, my name's Julio and I'm a Tech Lead and a Staff Site Reliability Engineer. I have a solid background in both Systems Engineering and Software Engineering, specially using Golang. I'm always focused on learning and improving while helping others to achieve their own goals.
 
-  I am most skilled in: <mark>Kubernetes</mark> and <mark>Golang</mark>
+  I am most skilled in: <mark>Teams leading</mark>, <mark>Kubernetes</mark> and <mark>Golang</mark>
 
 # Projects Section
 # projects_title: Projects
@@ -26,16 +26,16 @@ about_content: | # this will include new lines to allow paragraphs
 # experience_title: Experience
 
 # Education Section
-# educaton_title: Education
+# education_title: Education
 
 # More Section
 # more_title: A Little More About Me
 more_content: |
   I'm not only a passionate about technology, I also love and enjoy:
-   - Playing Rugby
+   - Learning languages
    - Sewing
    - Cats
-   - Photography
+   - DIY
 
 # Footer
 footer_show_references: false

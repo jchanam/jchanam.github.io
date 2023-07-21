@@ -1,10 +1,60 @@
 - layout: left
+  company: Affirm
+  link: affirm.com
+  job_title: Tech Lead, Staff Site Reliability Engineer
+  dates: Oct 2022 - Present
+  quote: >
+    The company that deliver honest financial products that improve lives
+  description: |
+    Continue with the tech lead responsibilities. Synchronize with the rest of Tech Leads of the company and integrate the effort from the Spanish and North America SRE members.
+
+    Integrate the team into a new Affirm's observability and incident management, and improve the company processes to reduce the MTTM and MTTR.
+
+- layout: left
+  company: Affirm
+  link: affirm.com
+  job_title: Tech Lead, Senior Site Reliability Engineer
+  dates: Jun 2022 - Oct 2022
+  quote: >
+    The company that deliver honest financial products that improve lives
+  description: |
+    As the tech lead of the team, create a new planning and review process, specially defined to suit into a multi-regional team with an important gap difference (US-Spain).
+
+    Implement a more efficient work management with Jira, centralized in knowledge sharing and clear projects statuses.
+
+    Migrate from AWS ECS to EKS all the environments for the company, without disruption.
+
+- layout: left
+  company: Affirm
+  link: affirm.com
+  job_title: Senior Site Reliability Engineer
+  dates: May 2021 - Jun 2022
+  quote: >
+    The company that deliver honest financial products that improve lives
+  description: |
+    After the acquisition of Returnly by Affirm, expanded the team to 5 new individual contributors, mentoring and onboarding them.
+
+    Improve the security at the edge by implementing Cloudflare for the company, as the leader and main developer for the project. Reduced the attack surface and improved the reliability of the different services offered.
+
+    Migrate all the infrastructure as code from CloudFront to Terraform.
+
+- layout: left
   company: Returnly
   link: returnly.com
-  job_title: Site Reliability Engineer
-  dates: May 2019 - Present
+  job_title: Senior Site Reliability Engineer
+  dates: May 2019 - May 2021
   quote: >
     The platform for brands that want better returns
+  description: |
+    Architect, develop and maintain the company's infrastructure.
+
+    Create an adaptable, cost-efficient multi-environment solution so engineers have an isolated playground to test their changes.
+
+    Main developer for the SRE team, creating a cli Golang tool to speed up the software development processes, such as deploy, interact with the infrastructure, etc.
+
+    Migration for the log tool to a managed solution.
+
+    Mentor and onboarder for three new individual contributors in the team.
 
 - layout: left
   company: Spotahome
@@ -66,4 +116,3 @@
     Responsibilities included internal support, troubleshooting and trainer.
 
     Development of payment platform monitoring and alerting.
-
